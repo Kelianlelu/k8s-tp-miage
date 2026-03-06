@@ -21,7 +21,7 @@ spec:
             - configMapRef:
                 name: credentials
           volumeMounts:
-            - mountPath: /var/lib/postgresql/data
+            - mountPath: /var/lib/postgresql
               name: db-data
       volumes:
         - name: db-data
