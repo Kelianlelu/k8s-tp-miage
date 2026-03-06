@@ -6,7 +6,7 @@ metadata:
     type: local
     app: postgresdb
 spec:
-  storageClassName: standard
+  storageClassName: hostpath
   capacity:
     storage: 8Gi
   accessModes:
